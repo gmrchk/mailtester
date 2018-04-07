@@ -1,6 +1,6 @@
 # mailtester
 
-## installation
+## Installation
 Before first email, mail tester must be setup to use appropriate mail server in `settings.js` file. 
 By default `settings.js` file is ready for gmail account (only username and password required), 
 but any other mail server is supported ([nodemailer](https://www.npmjs.com/package/nodemailer#sponsors) is used to actually send emails).

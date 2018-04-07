@@ -1,0 +1,31 @@
+{
+  "name": "mailtester",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "send.js",
+  "scripts": {
+    "start": "gulp watch",
+    "test": "node send.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "base64-img": "^1.0.3",
+    "body-parser": "~1.16.0",
+    "browser-sync": "^2.18.8",
+    "bs-html-injector": "^3.0.3",
+    "consolidate": "^0.14.5",
+    "debug": "~2.6.0",
+    "express": "~4.14.1",
+    "express-mailer": "^0.3.1",
+    "fs": "0.0.1-security",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-jade": "^1.1.0",
+    "jade": "~1.11.0",
+    "morgan": "~1.7.0",
+    "node-base64-image": "^1.0.3",
+    "nodemailer": "^3.1.8"
+  }
+}
